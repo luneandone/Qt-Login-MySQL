@@ -1,0 +1,44 @@
+QDialog{
+    background-color:white;
+}
+QPushButton#registerPushButton{
+    background-color:#12bb37;
+    color:white;
+    border-radius:5px;
+    border:none;
+    min-height:40px;
+    font-size:18px;
+    font-family:Helvetica;
+}
+QLineEdit {
+    /* 设置输入文本的默认颜色 */
+    color: #bfbfbf;
+    /* 其他样式 */
+    border-radius: 5px;
+    min-height: 40px;
+    border: 1px solid #eeeeee;
+    font-size: 14px;
+    font-family:Helvetica;
+}
+
+QLineEdit:focus {
+    /* 设置输入文本获取焦点后的颜色 */
+    color: black;
+    outline: none;
+    border:none;
+    border-width:0;
+    border-style:outset;
+    border: 1px solid #12bb37;
+}
+
+
+QLabel#titleLabel{
+    color:black;
+    font-size:24px;
+    font-family:Helvetica;
+}
+QLabel#textLabel{
+    color:#424242;
+    font-size:12px;
+    font-family:Helvetica;
+}

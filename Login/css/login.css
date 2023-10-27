@@ -1,0 +1,54 @@
+QDialog{
+    background-color:white;
+}
+QPushButton#loginPushButton{
+    background-color:#12bb37;
+    color:white;
+    border-radius:5px;
+    border:none;
+    min-height:40px;
+    font-size:18px;
+    font-family:Helvetica;
+}
+QLineEdit {
+    /* 设置输入文本的默认颜色 */
+    color: #bfbfbf;
+    /* 其他样式 */
+    border-radius: 5px;
+    min-height: 40px;
+    border: 1px solid #eeeeee;
+    font-size: 14px;
+    font-family:Helvetica;
+}
+
+QLineEdit:focus {
+    /* 设置输入文本获取焦点后的颜色 */
+    color: black;
+    outline: none;
+    border:none;
+    border-width:0;
+    border-style:outset;
+    border: 1px solid #12bb37;
+}
+
+
+QLabel#titleLabel{
+    color:#12bb37;
+    font-size:18px;
+    font-family:Helvetica;
+}
+QLabel#textLabel{
+    color:#424242;
+    font-size:12px;
+    font-family:Helvetica;
+}
+
+
+/*QWidget#widget{
+    background-image:url(:/image/login.png);
+    background-repeat:no-repeat; 防止背景图片重复
+    background-position:center; 背景图片居中
+    background-size: 100px 200px; 背景图片的大小
+    min-width:100px;
+    min-height:200px;
+}*/

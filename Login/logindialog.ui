@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginDialog</class>
+ <widget class="QDialog" name="loginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>363</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="userEdit">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>102</y>
+     <width>260</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passwordEdit">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>153</y>
+     <width>260</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loginPushButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>240</y>
+     <width>260</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>登 录</string>
+   </property>
+  </widget>
+  <widget class="closeButton" name="closeBtn" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="forgetPassword" name="passwordBtn" native="true">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>200</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="titleLabel">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> 账号登录</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>310</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="textLabel">
+      <property name="text">
+       <string>还没有账号？</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="registerButton" name="registeBtn" native="true"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>closeButton</class>
+   <extends>QWidget</extends>
+   <header>close.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>registerButton</class>
+   <extends>QWidget</extends>
+   <header>register.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>forgetPassword</class>
+   <extends>QWidget</extends>
+   <header>forgetpassword.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

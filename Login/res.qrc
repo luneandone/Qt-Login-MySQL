@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>css/login.css</file>
+        <file>image/close.png</file>
+        <file>css/register.css</file>
+        <file>css/password.css</file>
+    </qresource>
+</RCC>
