@@ -100,7 +100,7 @@ void passwordDialog::changePassword()
     database.setHostName("localhost");//127.0.0.1
     database.setPort(3306);
     database.setUserName("root");
-    database.setPassword("Lune_one1028");
+    database.setPassword("rootpassword");
 
     database.setDatabaseName("UAV"); //这个库是存在的
     if (database.open()) {
